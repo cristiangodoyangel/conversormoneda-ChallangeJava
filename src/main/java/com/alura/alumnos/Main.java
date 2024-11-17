@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Consulta consulta = new Consulta();
+        Generador generador = new Generador();
 
         while (true) {
             System.out.println("===========================================");
@@ -35,8 +36,15 @@ public class Main {
             String destino = opcion == 1 ? "CLP" : "USD";
 
             try {
-                String resultado = consulta.obtenerConversion(base, destino);
-                System.out.println("Respuesta de la API: " + resultado);
+                Moneda moneda = consulta.obtenerConversion(base, destino);
+                double resultado = moneda.conversion_rate() * cantidad;
+
+                System.out.printf("El valor de %.2f [%s] es %.2f [%s]%n",
+                        cantidad, moneda.base_code(), resultado, moneda.target_code());
+
+                // Guardar resultado
+                generador.guardarJson(moneda);
+                System.out.println("Conversión guardada en archivo JSON.");
             } catch (IOException | InterruptedException e) {
                 System.out.println("Error al realizar la conversión: " + e.getMessage());
             }
