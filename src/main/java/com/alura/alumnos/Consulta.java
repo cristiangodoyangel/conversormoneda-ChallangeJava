@@ -9,7 +9,7 @@ import com.google.gson.Gson;
 
 public class Consulta {
 
-    private static final String API_KEY = "4ee75cc91a09290e1b305570";
+    private static final String API_KEY = "SU_API";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/pair/";
 
     public Moneda obtenerConversion(String base, String destino) throws IOException, InterruptedException {
