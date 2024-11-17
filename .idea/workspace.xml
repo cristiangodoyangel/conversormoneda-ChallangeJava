@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30f58a2-bdd9-4044-8a23-d1b370bfff25" name="Changes" comment="- Se conecta la clase Consulta">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alura/alumnos/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alura/alumnos/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alura/alumnos/Consulta.java" afterDir="false" />
+    <list default="true" id="d30f58a2-bdd9-4044-8a23-d1b370bfff25" name="Changes" comment="- Se conectan todas las clases">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alura/alumnos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alura/alumnos/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731882575684</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Se logra parsear la respuesta Json de la API con Gson">
+      <option name="closed" value="true" />
+      <created>1731883371069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731883371069</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- Se añade la clase Generador para guardar las conversiones">
+      <option name="closed" value="true" />
+      <created>1731883435239</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731883435239</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- Se conectan todas las clases">
+      <option name="closed" value="true" />
+      <created>1731883496479</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731883496479</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +145,9 @@
     <MESSAGE value="- Se añade menú básico" />
     <MESSAGE value="- Se añade clase Consulta para conversiones" />
     <MESSAGE value="- Se conecta la clase Consulta" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Se conecta la clase Consulta" />
+    <MESSAGE value="- Se logra parsear la respuesta Json de la API con Gson" />
+    <MESSAGE value="- Se añade la clase Generador para guardar las conversiones" />
+    <MESSAGE value="- Se conectan todas las clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Se conectan todas las clases" />
   </component>
 </project>
